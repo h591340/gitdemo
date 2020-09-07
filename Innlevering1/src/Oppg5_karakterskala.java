@@ -21,7 +21,7 @@ public class Oppg5_karakterskala {
 			poeng=Integer.parseInt(showInputDialog("skriv inn poengsum: "));
 		}
 		
-			else if(poeng>0&&poeng<=39)
+			else if(poeng>=0&&poeng<=39)
 		{
 			melding=poeng1;
 			System.out.println("karakter er: " +melding);
