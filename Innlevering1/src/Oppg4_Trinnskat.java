@@ -17,7 +17,7 @@ public class Oppg4_Trinnskat {
 		String melding="vennligst skriv din inntekt: ";
 		
 		int inntekt=Integer.parseInt(showInputDialog("vennligst skriv din inntekt: "));
-		if(inntekt<164100)
+		if(inntekt<=164100)
 		{
 			
 			showMessageDialog(null,"Din trinnskatt er: "+skatt1 +" kr");
